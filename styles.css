@@ -17,6 +17,7 @@ td{
     text-align: center;
     font-weight: bold;
     font-size: 15px;
+    background-color: white;
 }
 
 header {
@@ -40,6 +41,6 @@ body {
 }
 
 th {
-    background-color: dimgray;
+    background-color: lightgray;
 
 }

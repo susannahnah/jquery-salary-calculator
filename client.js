@@ -41,10 +41,13 @@ function handleAddClick() {
     $('#annualSalaryIn').val('');
 
 //add a counter that increases when employee money is entered:    
+    function newTotalAmount() {
+        console.log('#moneyCountDiv');
+        // $('#moneyCountDiv').on('click', amountExample ++ );
 
-$('')    
-$('#moneyCountDiv').append('annualSalaryIn' + 'moneyCount');
+    }
 
+//have money amount turn red if over $20K
     if (moneyCount > 20000 )  {
         $('#moneyCountDiv').css('color', 'red');
     }    
