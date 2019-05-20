@@ -1,6 +1,6 @@
 console.log('test');
 
-let moneyCount = 0
+let moneyCount = 10000
 
 //create buttons that add and delete employees from list
 $(document).ready(function () {
@@ -41,13 +41,14 @@ function handleAddClick() {
     $('#annualSalaryIn').val('');
 
 //add a counter that increases when employee money is entered:    
-    // moneyCount = moneyCount + ();
-    // $('#moneyCountDiv').text(moneyCount);
 
-    // if (moneyCount > 20000 )  {
-    //     $('#moneyCountDiv').css('color', 'red');
-    // }    
-    
+$('')    
+$('#moneyCountDiv').append('annualSalaryIn' + 'moneyCount');
+
+    if (moneyCount > 20000 )  {
+        $('#moneyCountDiv').css('color', 'red');
+    }    
+   
 }
 
 //created delete function for delete buttons
